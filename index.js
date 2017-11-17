@@ -13,32 +13,36 @@ window.survey = new Survey.Model({ title: 'Employee of the Month',pages: [{ ques
 
     { type: "dropdown", isRequired: true, name: "Ellotheans", renderAs: "imagepicker", title: "Please select the employee of the month:",
         choices: [
+            {value: "Alex", text: "images/Alexander.png"},
             {value: "Aphiwe", text: "images/Aphiwe.png"},
+            {value: "Augustine", text: "images/Augustine.png"},
             {value: "Awi", text: "images/Awi.png"},
             {value: "Bennie", text: "images/Bennie.png"},
             {value: "Danté", text: "images/Danté.png"},
-            {value: "George", text: "images/George.png"},
-            {value: "Jayson", text: "images/Jayson.png"},
-            {value: "Tyrone", text: "images/Tyrone.png"},
-            {value: "Dehan", text: "images/Dehan.png"},
-            {value: "WernerP", text: "images/WernerP.png"},
             {value: "Davin", text: "images/Davin.png"},
-            {value: "Les", text: "images/Les.png"},
-            {value: "Michael", text: "images/Michael.png"},
-
-            {value: "Petrie", text: "images/Petrie.png"},
-          
-            {value: "Alex", text: "images/Alexander.png"},
             {value: "Deon", text: "images/Deon.png"},
+            {value: "Dehan", text: "images/Dehan.png"},
 
+          {value: "Francois", text: "images/Francois.png"},
+            {value: "George", text: "images/George.png"},
             {value: "Hannelie", text: "images/Hannelie.png"},
             {value: "Hesphia", text: "images/Hesphia.png"},
-            {value: "Jonathan", text: "images/Jonathan.png"},
-            {value: "Sharné", text: "images/Sharné.png"},                        
-            {value: "Francois", text: "images/Francois.png"},
-            {value: "Rory", text: "images/Rory.png"},
+            {value: "Jayson", text: "images/Jayson.png"},
+            {value: "JohanB", text: "images/Johan.png"},
+            {value: "JonathanW", text: "images/Jonathan.png"},
+            {value: "JonathanN", text: "images/JonathanN.png"},
             {value: "Kayla", text: "images/Kayla.png"},
+          {value: "Les", text: "images/Les.png"},
+
             {value: "Marisha", text: "images/Marisha.png"},
+            {value: "Michael", text: "images/Michael.png"},
+            {value: "Petrie", text: "images/Petrie.png"},
+
+            {value: "Rory", text: "images/Rory.png"},
+            {value: "Russel", text: "images/Russel.png"},
+            {value: "Tino", text: "images/Tino.png"},
+          {value: "Tyrone", text: "images/Tyrone.png"},
+          {value: "WernerP", text: "images/WernerP.png"},
          ]
     },
 
