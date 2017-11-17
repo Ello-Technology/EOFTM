@@ -39,6 +39,7 @@ window.survey = new Survey.Model({ title: 'Employee of the Month',pages: [{ ques
             {value: "Petrie", text: "images/Petrie.png"},
 
             {value: "Rory", text: "images/Rory.png"},
+            {value: "Roz", text: "images/Rozanne.png"},
             {value: "Russel", text: "images/Russel.png"},
             {value: "Tino", text: "images/Tino.png"},
           {value: "Tyrone", text: "images/Tyrone.png"},
